@@ -1,0 +1,60 @@
+{
+ "id": "monaco",
+ "format": 3,
+ "version": "2026-10-18",
+ "maxzoom": 14,
+ "bbox": [
+  7.4086,
+  43.4838,
+  7.5957,
+  43.7529
+ ],
+ "outputs": [
+  {
+   "name": "graph.bin",
+   "gz": true,
+   "parts": [
+    {
+     "path": "graph.bin.gz.00",
+     "size": 47894
+    }
+   ]
+  },
+  {
+   "name": "names.json",
+   "gz": true,
+   "parts": [
+    {
+     "path": "names.json.gz.00",
+     "size": 1827
+    }
+   ]
+  },
+  {
+   "name": "geo.json",
+   "gz": true,
+   "parts": [
+    {
+     "path": "geo.json.gz.00",
+     "size": 20956
+    }
+   ]
+  },
+  {
+   "name": "carte.pmtiles",
+   "gz": false,
+   "parts": [
+    {
+     "path": "carte.pmtiles.00",
+     "size": 1553836
+    }
+   ]
+  }
+ ],
+ "size": 1624513,
+ "stats": {
+  "nodes": 1242,
+  "edges": 1500,
+  "border": 1242
+ }
+}

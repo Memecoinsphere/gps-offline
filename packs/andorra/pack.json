@@ -1,0 +1,60 @@
+{
+ "id": "andorra",
+ "format": 3,
+ "version": "2026-10-18",
+ "maxzoom": 14,
+ "bbox": [
+  1.4124,
+  42.4276,
+  1.7875,
+  42.6572
+ ],
+ "outputs": [
+  {
+   "name": "graph.bin",
+   "gz": true,
+   "parts": [
+    {
+     "path": "graph.bin.gz.00",
+     "size": 197305
+    }
+   ]
+  },
+  {
+   "name": "names.json",
+   "gz": true,
+   "parts": [
+    {
+     "path": "names.json.gz.00",
+     "size": 4832
+    }
+   ]
+  },
+  {
+   "name": "geo.json",
+   "gz": true,
+   "parts": [
+    {
+     "path": "geo.json.gz.00",
+     "size": 50476
+    }
+   ]
+  },
+  {
+   "name": "carte.pmtiles",
+   "gz": false,
+   "parts": [
+    {
+     "path": "carte.pmtiles.00",
+     "size": 4257210
+    }
+   ]
+  }
+ ],
+ "size": 4509823,
+ "stats": {
+  "nodes": 4918,
+  "edges": 5887,
+  "border": 2057
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "luxembourg",
+ "format": 3,
+ "version": "2026-10-18",
+ "maxzoom": 14,
+ "bbox": [
+  5.733,
+  49.4455,
+  6.5322,
+  50.185
+ ],
+ "outputs": [
+  {
+   "name": "graph.bin",
+   "gz": true,
+   "parts": [
+    {
+     "path": "graph.bin.gz.00",
+     "size": 2076715
+    }
+   ]
+  },
+  {
+   "name": "names.json",
+   "gz": true,
+   "parts": [
+    {
+     "path": "names.json.gz.00",
+     "size": 49885
+    }
+   ]
+  },
+  {
+   "name": "geo.json",
+   "gz": true,
+   "parts": [
+    {
+     "path": "geo.json.gz.00",
+     "size": 1375859
+    }
+   ]
+  },
+  {
+   "name": "carte.pmtiles",
+   "gz": false,
+   "parts": [
+    {
+     "path": "carte.pmtiles.00",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.01",
+     "size": 17429236
+    }
+   ]
+  }
+ ],
+ "size": 45048943,
+ "stats": {
+  "nodes": 62792,
+  "edges": 74455,
+  "border": 26650
+ }
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="GPS Hors Ligne">
+<meta name="theme-color" content="#14161a">
+<title>GPS Hors Ligne</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="stylesheet" href="lib/maplibre-gl.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="map"></div>
+
+<!-- barre de recherche -->
+<div id="top">
+  <div id="searchbar">
+    <svg viewBox="0 0 24 24" class="ico"><path d="M10 3a7 7 0 015.6 11.2l4.6 4.6-1.4 1.4-4.6-4.6A7 7 0 1110 3zm0 2a5 5 0 100 10 5 5 0 000-10z"/></svg>
+    <input id="q" type="search" placeholder="Où allez-vous ?" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="search">
+    <button id="qclear" class="hidden" aria-label="Effacer">✕</button>
+  </div>
+  <div id="results" class="hidden"></div>
+</div>
+
+<!-- bandeau de manœuvre (navigation) -->
+<div id="banner" class="hidden">
+  <div id="bIcon"></div>
+  <div id="bTxt"><div id="bDist">–</div><div id="bName">–</div></div>
+  <div id="bThen" class="hidden"></div>
+</div>
+
+<!-- côté gauche : vitesse + limitation -->
+<div id="speedbox">
+  <div id="limit" class="hidden"><span id="limitV">50</span></div>
+  <div id="speed"><span id="speedV">0</span><small>km/h</small></div>
+</div>
+
+<!-- boutons flottants -->
+<div id="fabs">
+  <button id="btnRecenter" class="fab hidden" aria-label="Recentrer">
+    <svg viewBox="0 0 24 24"><path d="M12 2l7 19-7-4-7 4z"/></svg><span>Recentrer</span></button>
+  <button id="btnPacks" class="fab small" aria-label="Cartes hors ligne"><svg viewBox="0 0 24 24"><path d="M12 3v10.6l3.3-3.3 1.4 1.4L11 17.4l-5.7-5.7 1.4-1.4L10 13.6V3h2zm-8 16h16v2H4z" transform="translate(1 0)"/></svg></button>
+  <button id="btnMenu" class="fab small" aria-label="Réglages"><svg viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg></button>
+</div>
+
+<!-- fiche itinéraire (aperçu) -->
+<div id="sheet" class="sheet hidden">
+  <div class="grab"></div>
+  <div id="destName" class="destName">–</div>
+  <div id="destSub" class="destSub"></div>
+  <div class="routeInfo"><span id="rTime" class="big">–</span><span id="rDist"></span><span id="rEta"></span></div>
+  <div id="rErr" class="err hidden"></div>
+  <div class="row">
+    <button id="btnGo" class="primary">Démarrer</button>
+    <button id="btnCancel" class="ghost">Annuler</button>
+  </div>
+</div>
+
+<!-- barre bas pendant la navigation -->
+<div id="navbar" class="hidden">
+  <div class="nb"><b id="nEta">–</b><small>arrivée</small></div>
+  <div class="nb"><b id="nTime">–</b><small>restant</small></div>
+  <div class="nb"><b id="nDist">–</b><small>km</small></div>
+  <button id="btnStop" class="stop">Arrêter</button>
+</div>
+
+<!-- carte d'accueil : téléchargement -->
+<div id="welcome" class="card hidden">
+  <h2>Bienvenue 👋</h2>
+  <p>Pour naviguer sans réseau (mode avion), téléchargez d'abord la carte de votre région dans le téléphone : carte + itinéraires + recherche d'adresses.</p>
+  <button id="btnWelcomeDl" class="primary">Télécharger la carte hors ligne</button>
+  <button id="btnWelcomeLater" class="ghost">Plus tard</button>
+</div>
+
+<!-- panneau cartes hors ligne -->
+<div id="packs" class="panel hidden">
+  <div class="phead"><h2>Cartes hors ligne</h2><button class="close" data-close="packs">✕</button></div>
+  <div id="storageInfo" class="muted"></div>
+  <div id="packList"></div>
+  <p class="muted small">Chaque pack contient la carte, le réseau routier (calcul d'itinéraire dans le téléphone) et l'index des adresses. Les packs voisins se raccordent automatiquement aux frontières. Données © contributeurs OpenStreetMap, carte Protomaps.</p>
+</div>
+
+<!-- panneau réglages -->
+<div id="menu" class="panel hidden">
+  <div class="phead"><h2>Réglages</h2><button class="close" data-close="menu">✕</button></div>
+  <label class="opt"><input type="checkbox" id="optVoice" checked> Guidage vocal</label>
+  <label class="opt"><input type="checkbox" id="optNorth"> Carte orientée nord (hors navigation)</label>
+  <label class="opt"><input type="checkbox" id="optSim"> Mode démo : simuler le trajet (sans GPS)</label>
+  <button id="btnTestVoice" class="ghost">Tester la voix</button>
+  <div id="about" class="muted small"></div>
+</div>
+
+<div id="toast" class="hidden"></div>
+<script src="lib/maplibre-gl.js"></script>
+<script src="lib/pmtiles.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

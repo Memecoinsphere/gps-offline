@@ -1,0 +1,788 @@
+{
+ "generated": "2026-10-19",
+ "groups": [
+  {
+   "id": "fr",
+   "name": "France",
+   "packs": [
+    {
+     "id": "alsace",
+     "name": "Alsace",
+     "built": false,
+     "bbox": [
+      6.839,
+      47.418,
+      8.235,
+      49.079
+     ]
+    },
+    {
+     "id": "aquitaine",
+     "name": "Aquitaine (Gironde, Landes, Pyr.-Atl., Dordogne, Lot-et-G.)",
+     "built": true,
+     "size": 194656816,
+     "bbox": [
+      -1.8428,
+      42.7733,
+      1.4506,
+      45.7172
+     ],
+     "version": "2026-10-18"
+    },
+    {
+     "id": "auvergne",
+     "name": "Auvergne",
+     "built": false,
+     "bbox": [
+      2.061,
+      44.615,
+      4.493,
+      46.807
+     ]
+    },
+    {
+     "id": "basse-normandie",
+     "name": "Basse-Normandie",
+     "built": false,
+     "bbox": [
+      -2.088,
+      48.178,
+      0.979,
+      49.885
+     ]
+    },
+    {
+     "id": "bourgogne",
+     "name": "Bourgogne",
+     "built": false,
+     "bbox": [
+      2.843,
+      46.155,
+      5.52,
+      48.401
+     ]
+    },
+    {
+     "id": "bretagne",
+     "name": "Bretagne",
+     "built": false,
+     "bbox": [
+      -5.849,
+      47.077,
+      -1.015,
+      49.4
+     ]
+    },
+    {
+     "id": "centre",
+     "name": "Centre-Val de Loire",
+     "built": false,
+     "bbox": [
+      0.052,
+      46.346,
+      3.13,
+      48.942
+     ]
+    },
+    {
+     "id": "champagne-ardenne",
+     "name": "Champagne-Ardenne",
+     "built": false,
+     "bbox": [
+      3.382,
+      47.576,
+      5.892,
+      50.17
+     ]
+    },
+    {
+     "id": "corse",
+     "name": "Corse",
+     "built": false,
+     "bbox": [
+      8.318,
+      41.311,
+      9.751,
+      43.166
+     ]
+    },
+    {
+     "id": "franche-comte",
+     "name": "Franche-Comté",
+     "built": false,
+     "bbox": [
+      5.251,
+      46.26,
+      7.144,
+      48.025
+     ]
+    },
+    {
+     "id": "haute-normandie",
+     "name": "Haute-Normandie",
+     "built": false,
+     "bbox": [
+      0.009,
+      48.666,
+      1.804,
+      50.088
+     ]
+    },
+    {
+     "id": "ile-de-france",
+     "name": "Île-de-France",
+     "built": false,
+     "bbox": [
+      1.445,
+      48.119,
+      3.56,
+      49.243
+     ]
+    },
+    {
+     "id": "languedoc-roussillon",
+     "name": "Languedoc-Roussillon",
+     "built": false,
+     "bbox": [
+      1.686,
+      42.328,
+      4.848,
+      44.978
+     ]
+    },
+    {
+     "id": "limousin",
+     "name": "Limousin",
+     "built": true,
+     "size": 96474210,
+     "bbox": [
+      0.6271,
+      44.9184,
+      2.6138,
+      46.4578
+     ],
+     "version": "2026-10-18"
+    },
+    {
+     "id": "lorraine",
+     "name": "Lorraine",
+     "built": false,
+     "bbox": [
+      4.886,
+      47.812,
+      7.64,
+      49.619
+     ]
+    },
+    {
+     "id": "midi-pyrenees",
+     "name": "Midi-Pyrénées",
+     "built": false,
+     "bbox": [
+      -0.328,
+      42.568,
+      3.453,
+      45.048
+     ]
+    },
+    {
+     "id": "nord-pas-de-calais",
+     "name": "Nord-Pas-de-Calais",
+     "built": false,
+     "bbox": [
+      1.278,
+      49.968,
+      4.237,
+      51.281
+     ]
+    },
+    {
+     "id": "pays-de-la-loire",
+     "name": "Pays de la Loire",
+     "built": true,
+     "size": 212075349,
+     "bbox": [
+      -2.6747,
+      46.2188,
+      0.919,
+      48.57
+     ],
+     "version": "2026-10-18"
+    },
+    {
+     "id": "picardie",
+     "name": "Picardie",
+     "built": false,
+     "bbox": [
+      1.36,
+      48.836,
+      4.257,
+      50.371
+     ]
+    },
+    {
+     "id": "poitou-charentes",
+     "name": "Poitou-Charentes (Charente-Maritime, Charente, Deux-Sèvres, Vienne)",
+     "built": true,
+     "size": 133289959,
+     "bbox": [
+      -1.8986,
+      45.0868,
+      1.215,
+      47.1784
+     ],
+     "version": "2026-10-18"
+    },
+    {
+     "id": "provence-alpes-cote-d-azur",
+     "name": "Provence-Alpes-Côte d'Azur",
+     "built": false,
+     "bbox": [
+      4.145,
+      42.315,
+      7.749,
+      45.129
+     ]
+    },
+    {
+     "id": "rhone-alpes",
+     "name": "Rhône-Alpes",
+     "built": false,
+     "bbox": [
+      3.686,
+      44.113,
+      7.192,
+      46.522
+     ]
+    }
+   ]
+  },
+  {
+   "id": "be",
+   "name": "Belgique",
+   "packs": [
+    {
+     "id": "belgium",
+     "name": "Belgique",
+     "built": false,
+     "bbox": [
+      2.341,
+      49.495,
+      6.41,
+      51.598
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lu",
+   "name": "Luxembourg",
+   "packs": [
+    {
+     "id": "luxembourg",
+     "name": "Luxembourg",
+     "built": true,
+     "size": 45048943,
+     "bbox": [
+      5.733,
+      49.4455,
+      6.5322,
+      50.185
+     ],
+     "version": "2026-10-18"
+    }
+   ]
+  },
+  {
+   "id": "ch",
+   "name": "Suisse",
+   "packs": [
+    {
+     "id": "switzerland",
+     "name": "Suisse",
+     "built": false,
+     "bbox": [
+      5.954,
+      45.816,
+      10.496,
+      47.811
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mc",
+   "name": "Monaco",
+   "packs": [
+    {
+     "id": "monaco",
+     "name": "Monaco",
+     "built": true,
+     "size": 1624513,
+     "bbox": [
+      7.4086,
+      43.4838,
+      7.5957,
+      43.7529
+     ],
+     "version": "2026-10-18"
+    }
+   ]
+  },
+  {
+   "id": "ad",
+   "name": "Andorre",
+   "packs": [
+    {
+     "id": "andorra",
+     "name": "Andorre",
+     "built": true,
+     "size": 4509823,
+     "bbox": [
+      1.4124,
+      42.4276,
+      1.7875,
+      42.6572
+     ],
+     "version": "2026-10-18"
+    }
+   ]
+  },
+  {
+   "id": "de",
+   "name": "Allemagne",
+   "packs": [
+    {
+     "id": "baden-wuerttemberg",
+     "name": "Bade-Wurtemberg",
+     "built": false,
+     "bbox": [
+      7.506,
+      47.531,
+      10.515,
+      49.795
+     ]
+    },
+    {
+     "id": "bayern",
+     "name": "Bavière",
+     "built": false,
+     "bbox": [
+      8.975,
+      47.265,
+      13.849,
+      50.566
+     ]
+    },
+    {
+     "id": "brandenburg",
+     "name": "Brandebourg + Berlin",
+     "built": false,
+     "bbox": [
+      11.261,
+      51.356,
+      14.775,
+      53.563
+     ]
+    },
+    {
+     "id": "hamburg",
+     "name": "Hambourg",
+     "built": false,
+     "bbox": [
+      7.968,
+      53.392,
+      10.332,
+      54.063
+     ]
+    },
+    {
+     "id": "hessen",
+     "name": "Hesse",
+     "built": false,
+     "bbox": [
+      7.768,
+      49.393,
+      10.246,
+      51.659
+     ]
+    },
+    {
+     "id": "mecklenburg-vorpommern",
+     "name": "Mecklembourg-Poméranie",
+     "built": false,
+     "bbox": [
+      10.588,
+      53.106,
+      14.423,
+      54.984
+     ]
+    },
+    {
+     "id": "niedersachsen",
+     "name": "Basse-Saxe + Brême",
+     "built": false,
+     "bbox": [
+      6.295,
+      51.293,
+      11.607,
+      54.24
+     ]
+    },
+    {
+     "id": "nordrhein-westfalen",
+     "name": "Rhénanie-du-Nord-Westphalie",
+     "built": false,
+     "bbox": [
+      5.864,
+      50.321,
+      9.468,
+      52.533
+     ]
+    },
+    {
+     "id": "rheinland-pfalz",
+     "name": "Rhénanie-Palatinat",
+     "built": false,
+     "bbox": [
+      6.109,
+      48.964,
+      8.511,
+      50.944
+     ]
+    },
+    {
+     "id": "saarland",
+     "name": "Sarre",
+     "built": false,
+     "bbox": [
+      6.354,
+      49.108,
+      7.406,
+      49.641
+     ]
+    },
+    {
+     "id": "sachsen",
+     "name": "Saxe",
+     "built": false,
+     "bbox": [
+      11.867,
+      50.167,
+      15.051,
+      51.687
+     ]
+    },
+    {
+     "id": "sachsen-anhalt",
+     "name": "Saxe-Anhalt",
+     "built": false,
+     "bbox": [
+      10.547,
+      50.929,
+      13.213,
+      53.057
+     ]
+    },
+    {
+     "id": "schleswig-holstein",
+     "name": "Schleswig-Holstein",
+     "built": false,
+     "bbox": [
+      7.465,
+      53.357,
+      11.799,
+      55.146
+     ]
+    },
+    {
+     "id": "thueringen",
+     "name": "Thuringe",
+     "built": false,
+     "bbox": [
+      9.863,
+      50.2,
+      12.661,
+      51.652
+     ]
+    }
+   ]
+  },
+  {
+   "id": "it",
+   "name": "Italie",
+   "packs": [
+    {
+     "id": "nord-ovest",
+     "name": "Italie Nord-Ouest",
+     "built": false,
+     "bbox": [
+      6.603,
+      43.481,
+      11.433,
+      46.641
+     ]
+    },
+    {
+     "id": "nord-est",
+     "name": "Italie Nord-Est",
+     "built": false,
+     "bbox": [
+      9.195,
+      43.73,
+      13.929,
+      47.1
+     ]
+    },
+    {
+     "id": "centro",
+     "name": "Italie Centre",
+     "built": false,
+     "bbox": [
+      9.306,
+      40.214,
+      14.669,
+      44.48
+     ]
+    },
+    {
+     "id": "sud",
+     "name": "Italie Sud",
+     "built": false,
+     "bbox": [
+      13.001,
+      37.802,
+      19.125,
+      42.914
+     ]
+    },
+    {
+     "id": "isole",
+     "name": "Sicile et Sardaigne",
+     "built": false,
+     "bbox": [
+      7.718,
+      35.076,
+      15.709,
+      41.519
+     ]
+    }
+   ]
+  },
+  {
+   "id": "es",
+   "name": "Espagne",
+   "packs": [
+    {
+     "id": "andalucia",
+     "name": "Andalousie",
+     "built": false,
+     "bbox": [
+      -7.525,
+      35.706,
+      -1.332,
+      38.733
+     ]
+    },
+    {
+     "id": "aragon",
+     "name": "Aragon",
+     "built": false,
+     "bbox": [
+      -2.179,
+      39.838,
+      0.773,
+      42.927
+     ]
+    },
+    {
+     "id": "asturias",
+     "name": "Asturies",
+     "built": false,
+     "bbox": [
+      -7.189,
+      42.879,
+      -4.4,
+      44.011
+     ]
+    },
+    {
+     "id": "cantabria",
+     "name": "Cantabrie",
+     "built": false,
+     "bbox": [
+      -4.862,
+      42.755,
+      -3.145,
+      43.865
+     ]
+    },
+    {
+     "id": "castilla-la-mancha",
+     "name": "Castille-La Manche",
+     "built": false,
+     "bbox": [
+      -5.411,
+      38.02,
+      -0.913,
+      41.332
+     ]
+    },
+    {
+     "id": "castilla-y-leon",
+     "name": "Castille-et-León",
+     "built": false,
+     "bbox": [
+      -7.081,
+      40.08,
+      -1.766,
+      43.241
+     ]
+    },
+    {
+     "id": "cataluna",
+     "name": "Catalogne",
+     "built": false,
+     "bbox": [
+      0.156,
+      40.212,
+      4.175,
+      42.863
+     ]
+    },
+    {
+     "id": "extremadura",
+     "name": "Estrémadure",
+     "built": false,
+     "bbox": [
+      -7.544,
+      37.939,
+      -4.642,
+      40.489
+     ]
+    },
+    {
+     "id": "galicia",
+     "name": "Galice",
+     "built": false,
+     "bbox": [
+      -9.779,
+      41.804,
+      -6.727,
+      44.149
+     ]
+    },
+    {
+     "id": "islas-baleares",
+     "name": "Baléares",
+     "built": false,
+     "bbox": [
+      0.615,
+      38.057,
+      4.938,
+      40.71
+     ]
+    },
+    {
+     "id": "la-rioja",
+     "name": "La Rioja",
+     "built": false,
+     "bbox": [
+      -3.14,
+      41.914,
+      -1.673,
+      42.646
+     ]
+    },
+    {
+     "id": "madrid",
+     "name": "Madrid",
+     "built": false,
+     "bbox": [
+      -4.59,
+      39.881,
+      -3.05,
+      41.169
+     ]
+    },
+    {
+     "id": "murcia",
+     "name": "Murcie",
+     "built": false,
+     "bbox": [
+      -2.351,
+      37.112,
+      -0.247,
+      38.76
+     ]
+    },
+    {
+     "id": "navarra",
+     "name": "Navarre",
+     "built": false,
+     "bbox": [
+      -2.502,
+      41.906,
+      -0.717,
+      43.317
+     ]
+    },
+    {
+     "id": "pais-vasco",
+     "name": "Pays basque",
+     "built": false,
+     "bbox": [
+      -3.454,
+      42.469,
+      -1.666,
+      43.747
+     ]
+    },
+    {
+     "id": "valencia",
+     "name": "Communauté valencienne",
+     "built": false,
+     "bbox": [
+      -1.532,
+      37.843,
+      1.686,
+      40.793
+     ]
+    },
+    {
+     "id": "ceuta",
+     "name": "Ceuta",
+     "built": false,
+     "bbox": [
+      -5.391,
+      35.867,
+      -5.257,
+      35.959
+     ]
+    },
+    {
+     "id": "melilla",
+     "name": "Melilla",
+     "built": false,
+     "bbox": [
+      -2.972,
+      35.264,
+      -2.908,
+      35.324
+     ]
+    }
+   ]
+  }
+ ],
+ "bundles": [
+  {
+   "name": "Nouvelle-Aquitaine complète",
+   "desc": "Poitou-Charentes + Aquitaine + Limousin (de La Rochelle à Biarritz et Limoges)",
+   "packs": [
+    "poitou-charentes",
+    "aquitaine",
+    "limousin"
+   ]
+  }
+ ]
+}

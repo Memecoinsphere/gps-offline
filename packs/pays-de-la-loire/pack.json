@@ -1,0 +1,88 @@
+{
+ "id": "pays-de-la-loire",
+ "format": 3,
+ "version": "2026-10-18",
+ "maxzoom": 14,
+ "bbox": [
+  -2.6747,
+  46.2188,
+  0.919,
+  48.57
+ ],
+ "outputs": [
+  {
+   "name": "graph.bin",
+   "gz": true,
+   "parts": [
+    {
+     "path": "graph.bin.gz.00",
+     "size": 22442492
+    }
+   ]
+  },
+  {
+   "name": "names.json",
+   "gz": true,
+   "parts": [
+    {
+     "path": "names.json.gz.00",
+     "size": 568249
+    }
+   ]
+  },
+  {
+   "name": "geo.json",
+   "gz": true,
+   "parts": [
+    {
+     "path": "geo.json.gz.00",
+     "size": 6622298
+    }
+   ]
+  },
+  {
+   "name": "carte.pmtiles",
+   "gz": false,
+   "parts": [
+    {
+     "path": "carte.pmtiles.00",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.01",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.02",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.03",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.04",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.05",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.06",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.07",
+     "size": 13621574
+    }
+   ]
+  }
+ ],
+ "size": 212075349,
+ "stats": {
+  "nodes": 681427,
+  "edges": 819657,
+  "border": 51013
+ }
+}

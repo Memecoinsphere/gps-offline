@@ -1,0 +1,76 @@
+{
+ "id": "poitou-charentes",
+ "format": 3,
+ "version": "2026-10-18",
+ "maxzoom": 14,
+ "bbox": [
+  -1.8986,
+  45.0868,
+  1.215,
+  47.1784
+ ],
+ "outputs": [
+  {
+   "name": "graph.bin",
+   "gz": true,
+   "parts": [
+    {
+     "path": "graph.bin.gz.00",
+     "size": 14600529
+    }
+   ]
+  },
+  {
+   "name": "names.json",
+   "gz": true,
+   "parts": [
+    {
+     "path": "names.json.gz.00",
+     "size": 366985
+    }
+   ]
+  },
+  {
+   "name": "geo.json",
+   "gz": true,
+   "parts": [
+    {
+     "path": "geo.json.gz.00",
+     "size": 4907001
+    }
+   ]
+  },
+  {
+   "name": "carte.pmtiles",
+   "gz": false,
+   "parts": [
+    {
+     "path": "carte.pmtiles.00",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.01",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.02",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.03",
+     "size": 24117248
+    },
+    {
+     "path": "carte.pmtiles.04",
+     "size": 16946452
+    }
+   ]
+  }
+ ],
+ "size": 133289959,
+ "stats": {
+  "nodes": 409205,
+  "edges": 502696,
+  "border": 37490
+ }
+}
